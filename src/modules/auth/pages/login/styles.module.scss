@@ -1,0 +1,27 @@
+.loginWrap{
+    h1 {
+       text-align: center; 
+       margin-bottom: 60px;
+    }
+    .field{
+        margin-top: 20px;
+        .label{
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+    }
+    .forgot{
+        text-align: right;
+        line-height: 1.75rem;
+        font-size: 14px;
+        &:hover {
+            text-decoration: underline #0a5688;
+            color: #0a5688;
+            cursor: pointer;
+        }
+    }
+    .btnLogin{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
